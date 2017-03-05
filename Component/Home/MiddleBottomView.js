@@ -39,30 +39,7 @@ export default class MiddleBottomView extends Component {
 
   // 下部分的所有子组件
   renderBottomItem(){
-     // 组件数组
-    //   var itemArr = [];
-    //  // 拿到对应的数据
-      // var dataArr = Home_D4.data;
-    //  // 遍历
-    //   for(var i=0; i<dataArr.length; i++){
-    //       // 取出单独的数据
-    //       var itemData = dataArr[i];
-    //       // 创建组件,装入数组
-    //       itemArr.push(
-              // <CommonView
-              //     title={itemData.maintitle}
-              //     subTitle={itemData.deputytitle}
-              //     rightIcon={this.dealWithImgUrl(itemData.imageurl)}
-              //     titleColor={itemData.typeface_color}
-              //     tplurl={itemData.tplurl}
-              //     key={i}
-              //     callBackClickCell={(data)=>this.popToTopView(data)}
-              // />
-    //       );
-    //   }
-     //
-    //   // 返回组件数组
-    //   return itemArr;
+    
     var self = this;
     return (
       Home_D4.data.map(function(index, elem) {

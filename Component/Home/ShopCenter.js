@@ -48,28 +48,7 @@ export default class ShopCenter extends Component {
 
   // 返回下部分所有的Item
   renderAllItem(){
-      // 定义组件数组
-      // var itemArr = [];
-      // // 取出数据
-      // var shopData= Home_D5.data;
-      // // 遍历
-      // for (var i=0; i<shopData.length; i++){
-      //    // 取出单个数据
-      //     var data = shopData[i];
-      //    // 创建组件装入数组
-      //     itemArr.push(
-              // <ShopCenterItem
-              //     shopImage = {data.img}
-              //     shopSale = {data.showtext.text}
-              //     shopName = {data.name}
-              //     detailurl = {data.detailurl}
-              //     key={i}
-              //     popTopShopCenter = {(url)=>this.popTopHome(url)}
-              // />
-      //     );
-      // }
-      // // 返回
-      // return itemArr;
+    
       var self = this;
       return(
         Home_D5.data.map(function(index, elem) {
